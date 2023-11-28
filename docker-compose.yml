@@ -21,7 +21,7 @@ services:
       - 80:80
     restart: always
     environment:
-      - WORDPRESS_DB_HOST=mysql.cttkdmfxmxms.us-east-1.rds.amazonaws.com
+      - WORDPRESS_DB_HOST=database-1.cttkdmfxmxms.us-east-1.rds.amazonaws.com
       - WORDPRESS_DB_USER=admin
       - WORDPRESS_DB_PASSWORD=Admin123
       - WORDPRESS_DB_NAME=testdb
